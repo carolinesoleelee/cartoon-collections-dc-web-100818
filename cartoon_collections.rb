@@ -18,8 +18,8 @@ end
 
 
 def long_planeteer_calls(calls)
-  if (calls-Array.new(4)).empty?
-  return false
+  if calls.length < 4
+  return true
 else false
 end
 end
