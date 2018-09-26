@@ -26,6 +26,7 @@ end
 
 
 
-def find_the_cheese(snacks)
+def find_the_cheese(find)
+  find.include
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
