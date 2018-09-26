@@ -18,7 +18,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  if calls == Array.new(3) 
+  if calls == Array.new(2) 
   return false
   else true
 end
