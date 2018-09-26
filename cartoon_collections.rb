@@ -3,7 +3,7 @@ def roll_call_dwarves(names)
   names.each do |x|
   new << x  
 end
-new    
+new
 end
 
 def summon_captain_planet# code an argument here
