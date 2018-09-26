@@ -27,8 +27,6 @@ end
 
 
 def find_the_cheese(find)
-  if find =
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return cheddar
 end
-end
+
