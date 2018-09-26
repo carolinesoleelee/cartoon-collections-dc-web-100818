@@ -31,3 +31,4 @@ def find_the_cheese(cheese)
   cheese.find do |x|
     x.cheddar
 end
+end
