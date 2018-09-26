@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   new = []
-  names.each do |x|
-  new << x  
+  names.each_with_index do |x|
+  new << x
 end
 new
 end
