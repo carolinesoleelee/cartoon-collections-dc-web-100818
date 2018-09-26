@@ -9,7 +9,7 @@ end
 def summon_captain_planet(calls)
   new =[]
   calls.map do |x|
-    this = x.capitalize.insert(1,"!")
+    this = x.capitalize.push(1,"!")
   new << this
 end
 new
