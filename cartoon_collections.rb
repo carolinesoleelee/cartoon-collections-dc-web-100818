@@ -18,8 +18,8 @@ end
 
 
 def long_planeteer_calls(calls)
-  if Array.new(4, "true") < calls
-  return true
+  if calls < Array.new(4, "true")
+  return false
 else false
 end
 end
