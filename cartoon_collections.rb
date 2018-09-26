@@ -27,6 +27,6 @@ end
 
 
 def find_the_cheese(find)
-  find.index("cheddar_cheese")
+  find.include?("cheddar_cheese")
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
